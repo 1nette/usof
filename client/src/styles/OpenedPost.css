@@ -1,0 +1,346 @@
+.post_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post_opened {
+    background-color: white;
+    border-radius: 2rem;
+    margin: 0.5rem;
+
+    align-self: center;
+
+    width: 80%;
+}
+
+.post_opened_title {
+    display: flex;
+    justify-content: center;
+
+    background-color: #d1556c;
+    padding: 1rem;
+    padding-bottom: 0.8rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+.post_opened_categories {
+    display: flex;
+    padding: 1rem 2rem 0rem 2rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.post_opened_category {
+    margin-right: 0.5rem;
+    padding: 0.5rem 0.6rem 0.3rem 0.6rem;
+    background-color: #bce1d1;
+}
+
+.post_opened_category:hover .post_opened_description_popup {
+    opacity: 1;
+    visibility: visible;
+}
+
+.post_opened_content {
+    padding: 1rem 2rem 1.5rem 2rem;
+    overflow-wrap: break-word;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.post_opened_info {
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.post_opened_avatar {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.7rem;
+    border-radius: 50%;
+
+    background-color: #ffc4b2;
+}
+
+.post_opened_user {
+    display: flex;
+}
+
+.post_opened_user:hover .popup_rating {
+    opacity: 1;
+    visibility: visible;
+}
+
+.post_opened_user span {
+    margin-top: 1rem;
+}
+
+.post_opened_date {
+    margin-top: 1rem;
+}
+
+.popup_rating {
+    margin-left: 1rem;
+    padding: 0.7rem;
+
+    background-color: #4a4f4d;
+    color: white;
+    border-radius: 0.7rem;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.55s opacity, 0.55s visibility;
+}
+
+.post_opened_likesandcomments {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post_opened_likes {
+    padding: 1rem;
+    padding-top: 0rem;
+    padding-left: 2rem;
+
+    display: flex;
+}
+
+.post_opened_likes img {
+    width: 2.3rem;
+    margin-right: 0.5rem;
+
+    transition: all 0.3s ease;
+}
+
+.post_opened_likes img:hover {
+    transform: scale(1.2);
+}
+
+.post_opened_likes span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    margin: 1.5rem 0.5rem 0.5rem 0rem;
+}
+
+.like_text {
+    color: #84ab99;
+}
+
+.dislike_text {
+    color: #d1556c;
+}
+
+.post_opened_comments {
+    padding-right: 2rem;
+    padding-left: 3.5rem;
+    display: flex;
+}
+
+.post_opened_comments img {
+    width: 3rem;
+    height: 3rem;
+
+    margin-top: 0.6rem;
+}
+
+.post_opened_comments span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    margin: 1.5rem 0.5rem 0.5rem 0rem;
+}
+
+.comments_container {
+    background-color: white;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    padding-bottom: 0.8rem;
+
+    align-self: center;
+
+    width: 80%;
+}
+
+.comments_title {
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+    padding-bottom: 0rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.comments_list_none {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+    padding-top: 0.8rem;
+    padding-bottom: 0.2rem;
+}
+
+.comment_author_name {
+    display: flex;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.comment_author_name span {
+    padding-top: 0.35rem;
+}
+
+.comment_author_name:hover .comment_popup {
+    opacity: 1;
+    visibility: visible;
+}
+
+.comment_popup {
+    margin-left: 1rem;
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+
+    background-color: #4a4f4d;
+    color: white;
+    border-radius: 0.7rem;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.55s opacity, 0.55s visibility;
+}
+
+.comment_content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+
+    overflow-wrap: break-word;
+}
+
+.comment_rating {
+    display: flex;
+
+    padding-left: 2rem;
+    padding-top: 0.7rem;
+}
+
+.comment_rating img {
+    width: 2rem;
+    margin-right: 0.5rem;
+
+    transition: all 0.3s ease;
+}
+
+.comment_rating img:hover {
+    transform: scale(1.2);
+}
+
+.comment_editdelete {
+    margin-right: 2rem;
+}
+
+.comment_editdelete img {
+    width: 2rem;
+    margin-left: 1rem;
+
+    transition: all 0.3s ease;
+}
+
+.comment_editdelete img:hover {
+    transform: scale(1.2);
+}
+
+.abobaaaboba {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_like_text,
+.comment_dislike_text {
+    margin-top: 1.3rem;
+    margin-right: 0.5rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.comment_like_text {
+    color: #84ab99;
+}
+
+.comment_dislike_text {
+    color: #d1556c;
+}
+
+.comment_avatar {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.7rem;
+    border-radius: 50%;
+
+    background-color: #ffc4b2;
+}
+
+.post_opened_blockanddelete img {
+    width: 2rem;
+    height: 2rem;
+
+    margin: 1rem 1rem 1rem 1rem;
+
+    transition: all 0.3s ease;
+}
+
+.post_opened_blockanddelete img:hover {
+    transform: scale(1.2);
+}
+
+.new_comment {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.new_comment textarea {
+    padding-left: 2rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}

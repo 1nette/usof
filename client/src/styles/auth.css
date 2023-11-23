@@ -1,0 +1,114 @@
+.auth_page {
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+}
+
+.auth_pagetitle {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    margin: 2rem 2rem 1.5rem 2rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.auth_login {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1rem;
+}
+
+.auth_email {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1rem;
+}
+
+.auth_pass {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1rem;
+    padding-right: 2.9rem;
+}
+
+.auth_passrep {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1rem;
+    padding-right: 9.8rem;
+}
+
+.auth_span {
+    margin-right: 1rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.auth_input {
+    padding-left: 1.2rem;
+    width: 12rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.auth_button {
+    align-self: center;
+    margin-top: 2rem;
+    padding: 1rem;
+
+    width: 10rem;
+    border-radius: 2rem;
+
+    background-color: #d1556c;
+    color: white;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.auth_button:hover {
+    background-color: #84ab99;
+}
+
+.aboba {
+    justify-content: center;
+}
+
+.auth_error {
+    display: flex;
+    justify-content: center;
+
+    color: #d1556c;
+
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.auth_link {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.auth_link a {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+}

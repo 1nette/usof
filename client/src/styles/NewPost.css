@@ -1,0 +1,44 @@
+.new_post_page {
+    display: flex;
+    justify-content: center;
+
+    padding: 2rem;
+}
+
+.new_post {
+    background-color: white;
+
+    padding: 2rem;
+    border-radius: 2rem;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.new_post_span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.new_post_input {
+    padding-left: 1.2rem;
+    width: 20rem;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.new_post_content {
+    display: flex;
+}
+
+.new_post_title {
+    margin-bottom: 2rem;
+}
+
+.new_post_categories {
+    margin-bottom: 2rem;
+}
